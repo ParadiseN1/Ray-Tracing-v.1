@@ -1,0 +1,41 @@
+#CAMERA
+!origin:    (-2, 2, -2)
+!up:        (0, -1, 0)
+!right:     (1, 0, 0)
+!back:      (0.6, -0.8, 1)
+
+#LIGHT
+!coords:	(1, 0.2, -1, 1)
+============================
+#SPHERE
+!coords:	(0, -0.4, 1, 0.25)
+!color:		#FF0000
+
+============================
+#PLANE
+!coords:	(0, 2, 5)
+!normal:	(0, 0, -0.1)
+!color:		#0000FF
+
+#PLANE
+!coords:	(0, -1, 5)
+!normal:	(0, 1, 0.1)
+!color:		#BBBBBB
+
+============================
+#CYLINDER
+!coords:	(-0.35, -0.4, 1, 0.2)
+!axis:		(0.5, 1, 0)
+!length:	1
+!color:		#00FF00
+
+CYLINDER
+!coords:	(0, 0, 1, 0.1)
+!axis:		(0, 1, 0)
+!length:	20
+!color:		#9840FF
+============================
+#CONE
+!vertex:    (0.35, -0.3, 1, 20)
+!axis:      (-0.8, 1, 0)
+!color:     #FF00FF

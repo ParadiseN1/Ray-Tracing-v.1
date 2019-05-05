@@ -1,0 +1,84 @@
+#LIGHT
+!coords:	(3, 0.2, -1, 1)
+
+#LIGHT
+!coords:	(-3, 0.2, -1, 0.5)
+
+============================
+#SPHERE
+!coords:	(0, -0.5, 1.2, 0.1)
+!color:		#FF0000
+
+#SPHERE
+!coords:	(0.9, 0.8, 1, 0.25)
+!color:		#DDDDDD
+
+#SPHERE
+!coords:	(0.9, -0.6, 1, 0.25)
+!color:		#DDDDDD
+
+#SPHERE
+!coords:	(-0.9, 0.8, 1, 0.25)
+!color:		#DDDDDD
+
+#SPHERE
+!coords:	(-0.9, -0.6, 1, 0.25)
+!color:		#DDDDDD
+-------------------------------
+#SPHERE
+!coords:	(1, 0.4, 4, 0.25)
+!color:		#DDDDDD
+
+#SPHERE
+!coords:	(1, -0.9, 4, 0.25)
+!color:		#DDDDDD
+
+#SPHERE
+!coords:	(-1, 0.4, 4, 0.25)
+!color:		#DDDDDD
+
+#SPHERE
+!coords:	(-1, -0.9, 4, 0.25)
+!color:		#DDDDDD
+============================
+#PLANE
+!coords:	(0, 2, 5)
+!normal:	(0, 0, -0.1)
+!color:		#2222FF
+
+#PLANE
+!coords:	(0, 0.35, 5)
+!normal:	(0, -1, -0.1)
+!color:		#BBBBBB
+
+#PLANE
+!coords:	(0, -1, 5)
+!normal:	(0, 1, 0.1)
+!color:		#BBBBBB
+
+
+============================
+#CYLINDER
+!coords:	(-1, -0.4, 4, 0.15)
+!axis:		(0, 1, 0)
+!length:	1
+!color:		#DDDDDD
+
+#CYLINDER
+!coords:	(1, -0.4, 4, 0.15)
+!axis:		(0, 1, 0)
+!length:	1
+!color:		#DDDDDD
+
+#CYLINDER
+!coords:	(-0.9, -0.4, 1, 0.15)
+!axis:		(0, 1, 0)
+!length:	1
+!color:		#DDDDDD
+
+#CYLINDER
+!coords:	(0.9, -0.4, 1, 0.15)
+!axis:		(0, 1, 0)
+!length:	1
+!color:		#DDDDDD
+============================
